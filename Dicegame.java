@@ -5,8 +5,7 @@ class Dicegame{
         System.out.println("What is your name?");
         Scanner scan = new Scanner(System.in);
         String name = scan.next();
-        System.out.println("Hallo, "+ name + "!");
-
+        System.out.println("Hallo, "+name+ "!");
 
         double rand = Math.random() * 6 + 1;
         int die1 = (int)rand;
